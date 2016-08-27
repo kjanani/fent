@@ -44,4 +44,4 @@ if __name__ == '__main__':
     auth = OAuthHandler(consumer_key, consumer_secret);
     auth.set_access_token(access_key, access_secret);
     stream = Stream(auth,l);
-    stream.filter(track=['fentanyl','actiq','duragesic','sublimaze'], languages=['en']);
+    stream.filter(track=['fentanyl','actiq','duragesic','sublimaze','kill pill'], languages=['en']);
